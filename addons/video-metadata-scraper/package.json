@@ -1,0 +1,18 @@
+{
+  "name": "video-metadata-scraper",
+  "version": "1.0.2",
+  "type": "module",
+  "private": true,
+  "description": "Rekursiver Video-Scanner mit ffprobe + SQLite",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node -e \"console.log('video-metadata-scraper ready')\""
+  },
+  "dependencies": {
+    "@ffprobe-installer/ffprobe": "^1.4.1",
+    "better-sqlite3": "^11.7.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "humanize-duration": "^3.32.1"
+  }
+}

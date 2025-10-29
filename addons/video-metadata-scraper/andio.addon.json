@@ -1,0 +1,16 @@
+{
+  "name": "video-metadata-scraper",
+  "displayName": "Video Metadata Scraper",
+  "version": "1.0.0",
+  "description": "Findet alle Video-Dateien in konfigurierten Ordnern, extrahiert ffprobe-Metadaten und speichert sie in SQLite.",
+  "entry": "index.js",
+  "permissions": ["fs-read", "fs-write", "spawn", "db"],
+  "ipc": {
+    "scan": "addon:video:scan",
+    "getDirs": "addon:video:get-dirs",
+    "setDirs": "addon:video:set-dirs",
+    "removeDir": "addon:video:remove-dir",
+    "stats": "addon:video:stats",
+    "export": "addon:video:export"
+  }
+}

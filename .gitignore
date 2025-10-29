@@ -1,0 +1,28 @@
+# Node / Electron
+node_modules/
+dist/
+out/
+*.log
+*.tmp
+*.bak
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode / Editor
+.vscode/
+.idea/
+
+# Build Artifacts
+*.asar
+*.exe
+*.dll
+*.zip
+*.tar
+*.7z
+
+# Env files
+.env
+.env.local
+.env.*
